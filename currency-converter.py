@@ -1,4 +1,7 @@
 import requests
+import subprocess
+
+subprocess.check_call(['pip', 'install', 'requests'])
 
 def get_exchange_rate(base_currency, target_currency):
     url = f"https://api.exchangerate-api.com/v4/latest/{base_currency}"
