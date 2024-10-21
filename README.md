@@ -15,11 +15,11 @@ The script automatically installs the required `requests` library if it's not al
 ## Installation & Usage
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/currency-converter.git
+    git clone https://github.com/cedricoetterli/currency-converter
     ```
 2. Run the script:
     ```bash
-    python converter.py
+    python currency-converter.py
     ```
 
 ## Example
